@@ -1,0 +1,29 @@
+[[Salsa Class]]
+
+- un dos un ah! down up on dun dun
+- vamos! already down elbow
+- trumpet end of rueda and base is turns out to position
+- ---
+- solo section
+- piel oscora asi de negra segura (rumba son)
+- historia jump open cross 
+- el dolor amiga de la tristesa jump-taps 
+	- mayor migresa contemporery down and spin to open front
+- 2nd amiga de la tristesa up-taps fall to the side (shadow) 
+	- basic back right turn on 1 open to cross and jump to knee and back
+--- 
+- 2nd solo section (men & women) 
+- churos 
+- mambo section turn to kick and palo section
+- churos 2nd exhibala that ends with c toss 
+- pachanga shoulder hits fists up and down
+---
+- 2nd rueda (reversed) women turn x3 cross dame con dos 
+- out and son in turn to knee
+---
+- 3d solo section on piano beats
+- pachanga shimmies wave up 
+- quick partner work with maor
+- 4th jump up to solo (left turn chill son tap suzie kicks)
+- mevoy x2 
+- 1st solo section
