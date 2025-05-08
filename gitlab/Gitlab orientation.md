@@ -3,7 +3,7 @@
 
 ## gitlab architecture
 
-- [[gitlab-shell]]
+- [[Gitlab-Shell]]
 - pstgresql
 - nginx
 - grafana

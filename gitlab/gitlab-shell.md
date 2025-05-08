@@ -18,7 +18,6 @@
     * **Action:** Executes these commands on the server-side Git repositories.
 * **Security:**
     * **Importance:** Crucial layer for protecting your codebase from unauthorized access.
-
 ## Interaction Flow:
 
 1.  **Your Local Git Client (`git`)** initiates a Git operation (clone, push, pull).
