@@ -1,0 +1,49 @@
+
+# Gitlab S3 Connection
+## Why Object Storage
+S3 will let us store various data types (LFS, CI/CD Artifacts, Container Reg Images, backups) in a flat storage (most store efficient).
+
+#### gitlab storage on s3 pros
+better:
+- Performance
+- Reliability
+- Scalability (compared to local disk or NFS)
+
+## How
+Gitlab Integrates S3-like Storage by Configuring it as a back end for types of data that would otherwise be stored on the local File-System
+
+**Supported Data Types**:
+- CI/CD Job Artifacts (including archived job logs)
+- Git LFS objects
+- Package Registry (Maven, npm, NuGet, etc.)
+- Container Registry images (requires separate configuration for the registry component)
+- Uploads (e.g., attachments in issues, merge requests)
+- Merge request diffs
+- Dependency Proxy
+- Terraform state files
+- Secure Files
+- Backups (for the entire GitLab instance)
+### Steps:
+1. Prepare S3 Bucket
+2. Configure `gitlab.rb` 
+	1. S3 credentials, region, endpoint and bucket
+	2. for uploads gitlab workhorse can proxy downloads or redirect clients to s3
+3. `sudo gitlab-ctl reconfigure`
+4. Data Migration if you have existing data on local storage
+	1. `gitlab-rake gitlab:lfs:migrate`
+	2. `gitlab-rake gitlab:artifacts:migrate`
+**Gitlab will start using the specified s3 buckets** 
+## Configuration File Setup
+```ruby
+gitlab_rails['object_store_enabled'] = true
+gitlab_rails['object_store_connection'] = {
+	'provider' => 's3cmd'
+	'region' => 'region'
+	'access_key_id' => access.key
+	'secret_access_key' => secret.key
+	'endpoint'
+}
+# 3. confi bucket for object types
+gitlab_rails['object_store_objects_art'] = 'art_bucket'
+...
+```

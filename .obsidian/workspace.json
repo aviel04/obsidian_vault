@@ -13,15 +13,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "gitlab/Gitlab-Shell.md",
+                "file": "Puma.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gitlab-Shell"
+              "title": "Puma"
+            }
+          },
+          {
+            "id": "eadb6621705da317",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Postgresql.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Postgresql"
+            }
+          },
+          {
+            "id": "29b701569893dccf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "gitlab/SSO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SSO"
+            }
+          },
+          {
+            "id": "ecc71e133c945350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Ollama-setup.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Ollama-setup"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -167,7 +210,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,28 +224,47 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5141393eb356b774",
+  "active": "29b701569893dccf",
   "lastOpenFiles": [
-    "4913",
-    "CLI",
-    "splunk",
-    "salsa",
-    "helm",
-    "gitlab",
     "gitlab/Gitlab orientation.md",
+    "gitlab/SSO.md",
+    "gitlab/Backup.md",
+    "AI/Ollama-setup.md",
+    "React/sample_project.md",
+    "Postgresql.md",
+    "Puma.md",
+    "React",
+    "ai/RAG.md",
+    "AI/RAG.md",
     "gitlab/Gitlab-Shell.md",
-    "splunk/splunk cpu monitoring.md",
-    "splunk/Splunk.md",
-    "CLI/tmux.md",
-    "salsa/On2 Basics.md",
-    "Untitled.md",
-    "splunk/Packages for ts.md",
-    "salsa/Capital Salsa.md",
-    "salsa/Salsa Class.md",
-    "helm/helm guide.md",
-    "helm/helm flask deploy.md",
-    "helm/Helm.md",
-    "CLI/DotFiles.md",
-    "Welcome.md"
+    "gitlab/Gitlab-workhorse.md",
+    "aws/Aws Education.md",
+    "gitlab/object-storage.md",
+    "gitlab/object-storage.md.txt",
+    "gitlab/object-storage.txt",
+    "aws",
+    "neovim",
+    "AI/Quantization.md",
+    "aider/ollama.md",
+    "AI",
+    "nvidia/CUDA programing in python.md",
+    "aider",
+    "gitlab/Gitaly-Configuration.md",
+    "nvidia",
+    "neovim/avante nvim.md",
+    "Pasted image 20250520101808.png",
+    "Nvidia Parakeet.md",
+    "LVM_for_Gitlab.md",
+    "VLLTRzem57tthx2MjsY13cXfNr1NQAf9rSRAOrOX9p7WOMncErhHjFy-sN6S3xjxIywvvzvphvsRUwcGKDM9midr4SWZOMSaq0bImh2wd37aGXqu00KI9VmGnuzl2Wk6A7pcg8GFY29MO1777o2I4DCSHZVeBiTp9_Z2_YCWMd0tdL-j7W1GV8_L0Glu1q1OS4fneGXdKcTv8kePvV (1).png",
+    "deepresearch omnibus gitlab.md",
+    "Pasted image 20250511160138.png",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Nginx.md",
+    "AI Image Generation Container.md",
+    "Git.canvas",
+    "Sidekiq Gitlab.md",
+    "4913",
+    "CLI"
   ]
 }

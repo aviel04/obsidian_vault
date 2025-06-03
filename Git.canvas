@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"638180ffdbb054e9","x":-40,"y":-500,"width":400,"height":400,"type":"file","file":"gitlab/Gitlab orientation.md"},
+		{"id":"843e158f883a8012","x":636,"y":495,"width":250,"height":60,"type":"text","text":"# Sidekiq"},
+		{"id":"36bceacf112cb45d","x":-113,"y":615,"width":250,"height":60,"type":"text","text":"# Nginx"},
+		{"id":"625af80e68332333","x":-538,"y":598,"width":250,"height":60,"type":"text","text":"# SSH"},
+		{"id":"9b5e8e6f26025454","x":-476,"y":664,"width":250,"height":60,"type":"text","text":"# HTTP"},
+		{"id":"d582e8aa35fcfb91","x":-613,"y":-130,"width":400,"height":260,"type":"file","file":"Postgresql.md"},
+		{"id":"e78463cb386c7403","x":340,"y":585,"width":250,"height":60,"type":"text","text":"# Ingress"},
+		{"id":"5194d1709baf622f","x":-338,"y":280,"width":250,"height":60,"type":"text","text":"# Puma"},
+		{"id":"c92756f8fd756e53","x":35,"y":435,"width":250,"height":60,"type":"text","text":"# Redis"},
+		{"id":"f273a103a11c32f2","x":-40,"y":-20,"width":400,"height":260,"type":"file","file":"gitlab/Gitlab-Shell.md"},
+		{"id":"0985ddab72e119c5","x":580,"y":280,"width":250,"height":60,"type":"text","text":"# Workhorse"},
+		{"id":"00770b4a5fbaf373","x":580,"y":180,"width":250,"height":60,"type":"text","text":"# Gitaly"},
+		{"id":"78fdd72c7120f6ed","x":436,"y":-260,"width":400,"height":260,"type":"file","file":"Grafana & Prometheus.md"}
+	],
+	"edges":[
+		{"id":"a1b275a0936f23db","fromNode":"f273a103a11c32f2","fromSide":"bottom","toNode":"c92756f8fd756e53","toSide":"top"},
+		{"id":"c61d53057007e9cb","fromNode":"f273a103a11c32f2","fromSide":"left","toNode":"5194d1709baf622f","toSide":"top"},
+		{"id":"6d5d8d5bbda3e7aa","fromNode":"5194d1709baf622f","fromSide":"bottom","toNode":"c92756f8fd756e53","toSide":"left"},
+		{"id":"34e45580b44663a8","fromNode":"5194d1709baf622f","fromSide":"right","toNode":"0985ddab72e119c5","toSide":"left"},
+		{"id":"57d83b0468235900","fromNode":"c92756f8fd756e53","fromSide":"right","toNode":"0985ddab72e119c5","toSide":"bottom"},
+		{"id":"cd0322aec10b082b","fromNode":"f273a103a11c32f2","fromSide":"right","toNode":"00770b4a5fbaf373","toSide":"top"},
+		{"id":"abd7ea5cd335e84d","fromNode":"00770b4a5fbaf373","fromSide":"bottom","toNode":"0985ddab72e119c5","toSide":"top"}
+	]
+}

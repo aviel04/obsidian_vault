@@ -1,34 +1,33 @@
 
-## Gitlab Ombinbus
+## Gitlab Omnibus
 
 ## gitlab architecture
 
-- [[Gitlab-Shell]]
-- pstgresql
-- nginx
-- grafana
-- Prometheus
-- gitlab-workhorse
-- gitlab-rails
-- Redis
-- sidekiq
-- puma
-- praefect
-- gitaly
+- [x] [[Gitlab-Shell]] ✅ 2025-05-11
+- [x] [[PostgreSQL]] ✅ 2025-05-11
+- [x] [[Nginx]] ✅ 2025-05-11
+- [ ] [[Grafana & Prometheus]]
+- [x] [[Gitlab-workhorse]] ✅ 2025-05-11
+- [ ] [[Gitlab-rails]]
+- [ ] [[Redis]]
+- [ ] [[Sidekiq]]
+- [x] [[Puma]] ✅ 2025-05-11
+- [ ] [[Praefect]]
+- [ ] [[Gitaly]]
 
 ---
 ## Create Gitlab-Server
-- gitalb on LVM
+- gitlab on LVM
 	- add also to fstab
-	- var/opt/gitalb var/log/gitalb
-- where si the repo info (gitaly) on the machine
-	- how do we chage the path 
-- config git dataa for the server
-- check if you can create a new repo in the gitlab ui 
-- config a db for the gitlab
+	- var/opt/gitlab var/log/gitlab
+- where is the repo info (gitaly) on the machine
+	- how do we change the path 
+- config git data for the server
+- check if you can create a new repo in the gitlab UI 
+- config a DB for the gitlab
 	- pgadmin 
 	- certs 
-	- use  external service (db) and connect to the gitlab service 
+	- use  external service (DB) and connect to the gitlab service 
 
 ---
 ### what is sso and auth 
