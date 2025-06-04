@@ -1,5 +1,8 @@
 {
   "vimMode": true,
   "tabSize": 2,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "readableLineLength": false,
+  "showIndentGuide": false,
+  "showLineNumber": true
 }
