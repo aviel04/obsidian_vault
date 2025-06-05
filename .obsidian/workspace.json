@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "neovim/Gitlab Plugin Server Lazy.md",
+                "file": "gitlab/SSO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Gitlab Plugin Server Lazy"
+              "title": "SSO"
             }
           },
           {
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "openID",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,7 +211,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,10 +227,10 @@
   },
   "active": "29b701569893dccf",
   "lastOpenFiles": [
-    "neovim/Closed Network Plugins.md",
-    "neovim/Gitlab Plugin Server Lazy.md",
-    "gitlab/SSO.md",
     "gitlab/Gitlab orientation.md",
+    "gitlab/SSO.md",
+    "neovim/Gitlab Plugin Server Lazy.md",
+    "neovim/Closed Network Plugins.md",
     "gitlab/Backup.md",
     "AI/Ollama-setup.md",
     "React/sample_project.md",
